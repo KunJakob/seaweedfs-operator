@@ -56,7 +56,7 @@ Then run the command to deploy the operator into your cluster using Kustomize or
 # if using Kustomize
 $ make deploy
 # if using Helm
-$ helm install seaweedfs-operator ./deploy/helm
+$ helm install seaweedfs-operator ./charts/seaweedfs-operator
 ```
 
 Verify it was correctly deployed:
